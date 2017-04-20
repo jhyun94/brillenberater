@@ -30,7 +30,7 @@ html,body {
 }
 
 
-/* arrows 
+/* arrows
 ============ */
 .arrows {
   display: inline;
@@ -137,7 +137,15 @@ html,body {
   color: #fff;
   margin-top: 10px;
 }
-/* buttons for switching pages 
+
+.checkout-content:hover {
+  cursor: pointer;
+}
+
+.fa-arrow-down:hover {
+  cursor: pointer;
+}
+/* buttons for switching pages
 ========= */
 .next-button {
   float: right;
