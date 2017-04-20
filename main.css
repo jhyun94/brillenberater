@@ -90,14 +90,21 @@ html,body {
 
 /* buttons for switching pages 
 ========= */
-.button {
+.next-button {
   float: right;
 }
 
-.arrow {
+.next{
   background-color: #6600A1;
   color: #fff;
   margin-left: 20px;
+  padding: 8px;
+}
+
+.prev {
+  background-color: #D4D4D4;
+  color: #fff;
+  margin-right: 20px;
   padding: 8px;
 }
 
@@ -105,9 +112,12 @@ html,body {
   cursor: pointer;
 }
 
-img {
-
+.slide {
   width: 23%;
+}
+
+.prev-button {
+  display: none;
 }
 
 
