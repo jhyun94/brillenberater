@@ -1,3 +1,5 @@
+/* general
+========= */
 html,body {
   margin: 0;
   padding: 0;
@@ -14,6 +16,9 @@ html,body {
 }
 
 
+
+/* arrows 
+============ */
 
 .arrows li {
     display: inline-block;
@@ -69,6 +74,10 @@ html,body {
     background: #9999CC;
 }
 
+
+/*  the products for selling
+========= */
+
 .product {
   background-color: #6600A1;
   color: #fff;
@@ -78,3 +87,23 @@ html,body {
 .box {
   border: 1px solid black;
 }
+
+/* buttons for switching pages 
+========= */
+.button {
+  float: right;
+}
+
+.arrow {
+  background-color: #6600A1;
+  color: #fff;
+  margin-left: 20px;
+  padding: 8px;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+
+
