@@ -1,5 +1,12 @@
 // question page 
 
 $(".next").on("click", function(){
-  alert("working");
-})
+  nextPage();
+});
+
+
+
+
+function nextPage(){
+  $(".page-title").text("Welche Anforderungen stellen Sie an die Fassung");
+}
