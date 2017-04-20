@@ -23,18 +23,18 @@ function prevPage(){
 
 function pageOneImages(){
   $(".img-container").empty();
-  return '<div class="row"><div class="col-md-3"><img src="images/image1.png" class="img-responsive"/></div> \
-                          <div class="col-md-3"><img src="images/image2.png" class="img-responsive"/></div> \
-                          <div class="col-md-3"><img src="images/image3.png" class="img-responsive"/></div> \
-                          <div class="col-md-3"><img src="images/image4.png" class="img-responsive"/></div> \
+  return '<div class="row"><div class="col-md-3"><img src="images/image1.png" class="img-responsive slide"/></div> \
+                          <div class="col-md-3"><img src="images/image2.png" class="img-responsive slide"/></div> \
+                          <div class="col-md-3"><img src="images/image3.png" class="img-responsive slide"/></div> \
+                          <div class="col-md-3"><img src="images/image4.png" class="img-responsive slide"/></div> \
                           </div>'
 }
 
 function pageTwoImages(){
   $(".img-container").empty();
-  return '<div class="row"><div class="col-md-4"><img src="images/page2image1.png" class="img-responsive"/></div> \
-                          <div class="col-md-4"><img src="images/page2image2.png" class="img-responsive"/></div> \
-                          <div class="col-md-4"><img src="images/page2image3.png" class="img-responsive"/></div> \
+  return '<div class="row"><div class="col-md-4"><img src="images/page2image1.png" class="img-responsive slide"/></div> \
+                          <div class="col-md-4"><img src="images/page2image2.png" class="img-responsive slide"/></div> \
+                          <div class="col-md-4"><img src="images/page2image3.png" class="img-responsive slide"/></div> \
                           </div>'
 }
 

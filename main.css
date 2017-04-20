@@ -34,16 +34,32 @@ html,body {
 ============ */
 .arrows {
   display: inline;
+  padding:0px;
 }
-.arrows li {
+.arrows .standard-arrow {
     display: inline-block;
     height: 30px;
     line-height: 30px;
-    width: 210px;
+    width: 20%;
     margin: 5px 1px 0 0;
     text-indent: 35px;
     position: relative;
     color: #fff;
+}
+
+.arrows #last-arrow {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    width: 18.2%;
+    margin: 5px 1px 0 0;
+    text-indent: 35px;
+    position: relative;
+    color: #fff;
+}
+
+.arrows-container .container{
+  padding:0px;
 }
 
 .arrows li:before {
@@ -186,8 +202,17 @@ html,body {
 
 /* images
 ======= */
-.slide {
-  width: 23%;
+.img-container .col-md-3 {
+  padding: 0;
 }
 
+.img-container .col-md-4 {
+  padding: 0;
+}
+.slide.img-responsive {
+  width: 100%;
+}
 
+.page-1.container {
+  padding: 0;
+}
