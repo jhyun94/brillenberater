@@ -3,6 +3,7 @@
 html,body {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .purple {
@@ -11,15 +12,29 @@ html,body {
 
 
 .header h1 {
-/*  font-size: 60px;*/
-  letter-spacing: 1.2px;
+  font-size: 4em;
+  letter-spacing: 1.4px;
 }
 
+.header p {
+  font-size: 1.2em;
+}
+
+.header img {
+  float: right;
+}
+
+.header .container {
+  padding-right: 0;
+  padding-left: 0;
+}
 
 
 /* arrows 
 ============ */
-
+.arrows {
+  display: inline;
+}
 .arrows li {
     display: inline-block;
     height: 30px;
@@ -66,7 +81,7 @@ html,body {
 }
 
 .arrows li.active p:after {
-    border-left-color: #6600A1;
+    border-left-color: transparent;
 }
 
 .arrows li p {
@@ -78,21 +93,30 @@ html,body {
 /*  the products for selling
 ========= */
 
-.product {
+.content-container {
   background-color: #6600A1;
-  color: #fff;
-  padding: 10px 0;
+  margin-bottom: 10px;
 }
 
+.header-container h2 {
+  color: #fff;
+  vertical-align: center;
+}
 .box {
   border: 1px solid black;
   margin-bottom: 4px;
 }
 
+.product-title {
+  border-bottom: 1px solid #000;
+}
+
 .product-list {
   list-style-type: none;
   font-size: 18px;
+  display: inline;
 }
+
 
 .price-content {
   border: 1px solid black;
@@ -117,6 +141,8 @@ html,body {
 ========= */
 .next-button {
   float: right;
+  position: relative;
+  right: -15px;
 }
 
 .next{
@@ -137,13 +163,22 @@ html,body {
   cursor: pointer;
 }
 
-.slide {
-  width: 23%;
-}
 
 .prev-button {
   display: none;
+  position: relative;
+  left: -15px;
 }
 
+.buttons {
+  margin-bottom: 10px;
+}
+
+
+/* images
+======= */
+.slide {
+  width: 23%;
+}
 
 
