@@ -6,6 +6,11 @@ $(".next").on("click", function(){
 
 $(".prev").on("click", function(){
   prevPage();
+});
+
+//special button
+$("#effect").on("click", function(){
+  $("body .purple").toggleClass("special");
 })
 
 
