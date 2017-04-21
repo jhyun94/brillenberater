@@ -29,6 +29,11 @@ html,body {
   padding-left: 0;
 }
 
+#effect {
+  float:right;
+  margin-right: 40px;
+}
+
 
 /* arrows
 ============ */
@@ -216,3 +221,14 @@ html,body {
 .page-1.container {
   padding: 0;
 }
+
+/* special button
+=========== */
+.special {
+  color: #AA9539;
+}
+
+
+
+
+
